@@ -6,11 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Signup page
 
-![alt text](https://repository-images.githubusercontent.com/331411730/5c5cc100-5f7f-11eb-94c8-10c126bff5d8)
+![alt text](https://raw.githubusercontent.com/ElBoj01/MEAN-Project/master/src/assets/images/Mean-project-signup.png)
 
 ## My posts page
 
-![alt text](https://repository-images.githubusercontent.com/331411730/44d20800-5f80-11eb-9966-b826650abf7f)
+![alt text](https://raw.githubusercontent.com/ElBoj01/MEAN-Project/master/src/assets/images/Mean-project-signup.png)
 
 ## Development server
 
