@@ -1,25 +1,43 @@
-:host{
-  margin-top: 1rem;
-  display: block;
+@import "src/assets/styles/variables-and-mixins.scss";
+
+span {
+  @include wrapping-span;
 }
 
-.info-text{
+:host {
+  display: block;
+  margin-top: 16px;
+}
+
+.info-text {
   text-align: center;
 }
 
-mat-spinner{
-  margin: auto;
-}
-
-mat-paginator{
-  margin-top: 1rem;
-}
-
-.post-image{
+.post-image {
   width: 100%;
 }
 
 .post-image img {
   width: 100%;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 5);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+mat-expansion-panel,
+mat-paginator {
+  background-color: $main-background-color;
+}
+mat-paginator,
+::ng-deep .mat-select-panel {
+  background-color: #5e2f41;
+  border-radius: 12px;
+}
+
+::ng-deep .mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: #ffb1d4;
+}
+mat-paginator {
+  margin-top: 1rem;
+}
+
+mat-spinner {
+  margin: auto;
 }

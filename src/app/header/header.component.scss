@@ -1,18 +1,46 @@
-ul {
+mat-toolbar {
+    background-image: linear-gradient(
+      to right bottom,
+      #e9abc3,
+      #e59ab7,
+      #e189aa,
+      #dc779d,
+      #d76590,
+      #d45a87,
+      #d14e7f,
+      #cd4176,
+      #ca396f,
+      #c82f69,
+      #c52562,
+      #c2185b
+    );
+  }
+  
+  ul {
     list-style: none;
-    padding: 0;
     margin: 0;
-}
-
-a{
+    padding: 0;
+    display: flex;
+  }
+  
+  span a{
+      color: #403939;
+  }
+  
+  a {
     text-decoration: none;
     color: white;
-}
-
-ul{
-    display: flex;
-}
-
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  .activelink {
+    color:  #403939;
+    font-weight: bold;
+  }
+  
 .NP{
     flex: 1 1 auto;
 }

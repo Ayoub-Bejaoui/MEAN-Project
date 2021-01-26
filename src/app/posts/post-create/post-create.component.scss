@@ -1,12 +1,24 @@
-mat-form-field, textarea{
-  width: 100%;
+@import "src/assets/styles/variables-and-mixins.scss";
+
+span {
+  @include wrapping-span;
 }
 
-mat-spinner{
-  margin: auto ;
+mat-card {
+  @include card;
+  width: 100%
 }
 
-input[type="file"]{
+mat-form-field {
+  width: 100%
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+
+input[type="file"] {
   visibility: hidden;
 }
 

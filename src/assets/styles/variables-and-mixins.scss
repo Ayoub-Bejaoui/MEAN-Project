@@ -1,0 +1,35 @@
+@mixin wrapping-span {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  padding: 5px;
+  box-sizing: border-box;
+
+  background-image: linear-gradient(
+    to right bottom,
+    #c2185b,
+    #c52562,
+    #c82f69,
+    #ca396f,
+    #cd4176,
+    #d14e7f,
+    #d45a87,
+    #d76590,
+    #dc779d,
+    #e189aa,
+    #e59ab7,
+    #e9abc3
+  );
+  background-clip: padding-box;
+  border: solid 5px transparent;
+  border-radius: 12px;
+}
+
+$main-background-color: #403939;
+
+@mixin card {
+  padding: 30px;
+  background-color: $main-background-color;
+}

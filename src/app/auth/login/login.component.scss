@@ -1,8 +1,17 @@
-mat-form-field, textarea{
-    width: 100%;
-  }
-  
-  mat-spinner{
-    margin: auto ;
-  }
-  
+@import "src/assets/styles/variables-and-mixins.scss";
+
+span {
+  @include wrapping-span;
+}
+
+mat-card {
+  @include card;
+}
+
+mat-form-field {
+  width: 100%
+}
+
+mat-spinner {
+  margin: auto;
+}
