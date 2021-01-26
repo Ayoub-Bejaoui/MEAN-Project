@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Signup page
 
-![alt text](https://repository-images.githubusercontent.com/331411730/8614e880-5f7d-11eb-9e00-8ac2da34a1f2)
+![alt text](https://repository-images.githubusercontent.com/331411730/5c5cc100-5f7f-11eb-94c8-10c126bff5d8)
 
 ## Development server
 
